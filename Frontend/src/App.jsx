@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { AuthProvider, AuthContext } from "./context/AuthContext";
 import { useContext } from "react";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 // Pages
 import Register from "./pages/Register";
@@ -44,6 +46,9 @@ function App() {
           {/* Fallback to login for any unknown route */}
           <Route path="*" element={<Navigate to="/login" replace />} />
         </Routes>
+
+        {/* Toast Container */}
+        <ToastContainer position="top-right" autoClose={3000} hideProgressBar />
       </BrowserRouter>
     </AuthProvider>
   );
