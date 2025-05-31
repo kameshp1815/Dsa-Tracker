@@ -2,9 +2,10 @@ import { useNavigate } from "react-router-dom";
 
 const TopicCard = ({ topic }) => {
   const navigate = useNavigate();
-  const total = topic.questions.length;
-  const done = topic.questions.filter((q) => q.done).length;
-  const progress = (done / total) * 100;
+  const questions = Array.isArray(topic.questions) ? topic.questions : [];
+  const total = questions.length;
+  const done = questions.filter((q) => q.done).length;
+  const progress = total > 0 ? (done / total) * 100 : 0;
 
   return (
     <div

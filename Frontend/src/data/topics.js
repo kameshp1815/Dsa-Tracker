@@ -1,4 +1,43 @@
 const topics = [
+    {topic: "Math",
+    questions: [
+      { id: 148, name: "Two Sum", difficulty: "Easy", link: "https://leetcode.com/problems/two-sum/", done: false, bookmarked: false, notes: "" },
+      { id: 149, name: "Add Two Numbers", difficulty: "Medium", link: "https://leetcode.com/problems/add-two-numbers/", done: false, bookmarked: false, notes: "" },
+      { id: 150, name: "Multiply Strings", difficulty: "Medium", link: "https://leetcode.com/problems/multiply-strings/", done: false, bookmarked: false, notes: "" },
+      { id: 151, name: "Divide Two Integers", difficulty: "Medium", link:"https://leetcode.com/problems/divide-two-integers/", done:false, bookmarked:false, notes:"" },
+      { id :152 ,name:"Integer to Roman" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/integer-to-roman/" ,done:false ,bookmarked:false ,notes:""},
+      {id :153 ,name:"Roman to Integer" ,difficulty:"Easy" ,link:"https://leetcode.com/problems/roman-to-integer/" ,done:false ,bookmarked:false ,notes:""},
+      {id :154 ,name:"Valid Palindrome II" ,difficulty:"Easy" ,link:"https://leetcode.com/problems/valid-palindrome-ii/" ,done:false ,bookmarked:false ,notes:""},
+      {id :155 ,name:"Valid Palindrome III" ,difficulty:"Hard" ,link:"https://leetcode.com/problems/valid-palindrome-iii/" ,done:false ,bookmarked:false ,notes:""},
+        {id :156 ,name:"Palindrome Number" ,difficulty:"Easy" ,link:"https://leetcode.com/problems/palindrome-number/" ,done:false ,bookmarked:false ,notes:""},
+        {id :157 ,name:"Valid Anagram" ,difficulty:"Easy" ,link:"https://leetcode.com/problems/valid-anagram/" ,done:false ,bookmarked:false ,notes:""},
+        {id :158 ,name:"Longest Common Prefix" ,difficulty:"Easy" ,link:"https://leetcode.com/problems/longest-common-prefix/" ,done:false ,bookmarked:false ,notes:""},
+
+    ]
+},
+{topic: "Searching",
+    questions: [
+      { id: 101, name: "Binary Search", difficulty: "Easy", link: "https://leetcode.com/problems/binary-search/", done: false, bookmarked: false, notes: "" },
+      { id: 102, name: "Search Insert Position", difficulty: "Easy", link: "https://leetcode.com/problems/search-insert-position/", done: false, bookmarked: false, notes: "" },
+      { id: 103, name: "Find First and Last Position of Element in Sorted Array", difficulty: "Medium", link: "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/", done: false, bookmarked: false, notes: "" },
+      { id: 104, name: "Search in Rotated Sorted Array", difficulty: "Medium", link:"https://leetcode.com/problems/search-in-rotated-sorted-array/", done:false, bookmarked:false, notes:"" },
+      { id :105 ,name:"Find Minimum in Rotated Sorted Array" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/" ,done:false ,bookmarked:false ,notes:""},
+      {id :106 ,name:"Find Peak Element" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/find-peak-element/" ,done:false ,bookmarked:false ,notes:""},
+      {id :107 ,name:"Search a 2D Matrix" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/search-a-2d-matrix/" ,done:false ,bookmarked:false ,notes:""},
+    ]
+},
+{topic: "Sorting",
+    questions: [
+      { id: 111, name: "Merge Sorted Array", difficulty: "Easy", link: "https://leetcode.com/problems/merge-sorted-array/", done: false, bookmarked: false, notes: "" },
+      { id: 112, name: "Sort Colors", difficulty: "Medium", link: "https://leetcode.com/problems/sort-colors/", done: false, bookmarked: false, notes: "" },
+      { id: 113, name: "Top K Frequent Elements", difficulty: "Medium", link: "https://leetcode.com/problems/top-k-frequent-elements/", done: false, bookmarked: false, notes: "" },
+      { id: 114, name: "Kth Largest Element in an Array", difficulty: "Medium", link:"https://leetcode.com/problems/kth-largest-element-in-an-array/", done:false, bookmarked:false, notes:"" },
+      { id :115 ,name:"Sort List" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/sort-list/" ,done:false ,bookmarked:false ,notes:""},
+      {id :116 ,name:"Largest Number" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/largest-number/" ,done:false ,bookmarked:false ,notes:""},
+      {id :117 ,name:"Wiggle Sort II" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/wiggle-sort-ii/" ,done:false ,bookmarked:false ,notes:""},
+    ]
+},
+
   {
     topic: "Array",
     questions: [
@@ -21,7 +60,14 @@ const topics = [
       { id: 17, name: "Search in Rotated Sorted Array", difficulty: "Medium", link: "https://leetcode.com/problems/search-in-rotated-sorted-array/", done: false, bookmarked: false, notes: "" },
       { id: 18, name: "Container With Most Water", difficulty: "Medium", link: "https://leetcode.com/problems/container-with-most-water/", done: false, bookmarked: false, notes: "" },
       { id: 19, name: "Merge Intervals", difficulty: "Medium", link: "https://leetcode.com/problems/merge-intervals/", done: false, bookmarked: false, notes: "" },
-      { id: 20, name: "Jump Game", difficulty: "Medium", link: "https://leetcode.com/problems/jump-game/", done: false, bookmarked: false, notes: "" }
+      { id: 20, name: "Jump Game", difficulty: "Medium", link: "https://leetcode.com/problems/jump-game/", done: false, bookmarked: false, notes: "" },
+{ id: 21, name: "Maximum Product Subarray", difficulty: "Medium", link: "https://leetcode.com/problems/maximum-product-subarray/", done: false, bookmarked: false, notes: "" },
+{ id: 22, name: "Kth Largest Element in an Array", difficulty: "Medium", link: "https://leetcode.com/problems/kth-largest-element-in-an-array/", done: false, bookmarked: false, notes: "" },
+{ id: 23, name: "Find All Duplicates in an Array", difficulty: "Medium", link: "https://leetcode.com/problems/find-all-duplicates-in-an-array/", done: false, bookmarked: false, notes: "" },
+{ id: 24, name: "Maximum Product of Three Numbers", difficulty: "Easy", link: "https://leetcode.com/problems/maximum-product-of-three-numbers/", done: false, bookmarked: false, notes: "" },
+{ id: 25, name: "Plus One", difficulty: "Easy", link: "https://leetcode.com/problems/plus-one/", done: false, bookmarked: false, notes: "" },
+{ id: 26, name: "Set Matrix Zeroes", difficulty: "Medium", link: "https://leetcode.com/problems/set-matrix-zeroes/", done: false, bookmarked: false, notes: "" },
+
     ]
   },
   {
@@ -74,6 +120,27 @@ const topics = [
       { id: 60, name: "LRU Cache", difficulty: "Medium", link: "https://leetcode.com/problems/lru-cache/", done: false, bookmarked: false, notes: "" }
     ]
   },
+  {topic: "Stack and Queue",
+    questions: [  
+        {id:1, name: "Valid Parentheses", difficulty: "Easy", link: "https://leetcode.com/problems/valid-parentheses/", done: false, bookmarked: false, notes: ""},
+        {id:2, name: "Min Stack", difficulty: "Easy", link: "https://leetcode.com/problems/min-stack/", done: false, bookmarked: false, notes: ""},                         
+        {id:3, name: "Evaluate Reverse Polish Notation", difficulty: "Medium", link: "https://leetcode.com/problems/evaluate-reverse-polish-notation/", done: false, bookmarked: false, notes: ""},
+        {id:4, name: "Daily Temperatures", difficulty: "Medium", link: "https://leetcode.com/problems/daily-temperatures/", done: false, bookmarked: false, notes: ""},
+        {id:5, name: "Next Greater Element I", difficulty: "Easy", link: "https://leetcode.com/problems/next-greater-element-i/", done: false, bookmarked: false, notes: ""},
+        {id:6, name: "Next Greater Element II", difficulty: "Medium", link: "https://leetcode.com/problems/next-greater-element-ii/", done: false, bookmarked: false, notes: ""},
+        {id:7, name: "Implement Queue using Stacks", difficulty: "Easy", link: "https://leetcode.com/problems/implement-queue-using-stacks/", done: false, bookmarked: false, notes: ""},
+        {id:8, name: "Implement Stack using Queues", difficulty: "Easy", link: "https://leetcode.com/problems/implement-stack-using-queues/", done: false, bookmarked: false, notes: ""},
+        {id:9, name: "Design Circular Queue", difficulty: "Medium", link: "https://leetcode.com/problems/design-circular-queue/", done: false, bookmarked: false, notes: ""},
+        {id:10, name: "Design Circular Deque", difficulty: "Medium", link: "https://leetcode.com/problems/design-circular-deque/", done: false, bookmarked: false, notes: ""},
+        {id:11, name: "Sliding Window Maximum", difficulty: "Hard", link: "https://leetcode.com/problems/sliding-window-maximum/", done: false, bookmarked: false, notes: ""},
+        {id:12, name: "Largest Rectangle in Histogram", difficulty: "Hard", link: "https://leetcode.com/problems/largest-rectangle-in-histogram/", done: false, bookmarked: false, notes: ""},
+        {id:13, name: "Trapping Rain Water", difficulty: "Hard", link: "https://leetcode.com/problems/trapping-rain-water/", done: false, bookmarked: false, notes: ""},
+        {id:14, name: "Binary Search Tree Iterator", difficulty: "Medium", link: "https://leetcode.com/problems/binary-search-tree-iterator/", done: false, bookmarked: false, notes: ""},
+        {id:15, name: "Design a Stack with Increment Operation", difficulty: "Medium", link: "https://leetcode.com/problems/design-a-stack-with-increment-operation/", done: false, bookmarked: false, notes: ""},
+        {id:16, name: "Design a Stack that Supports Increment Operation", difficulty: "Medium", link: "https://leetcode.com/problems/design-a-stack-that-supports-increment-operation/", done: false, bookmarked: false, notes: ""},
+        {id:17, name: "Design a Stack with Increment Operation", difficulty: "Medium", link: "https://leetcode.com/problems/design-a-stack-with-increment-operation/", done: false, bookmarked: false, notes: ""},
+
+    ]},
   {
     topic: "Tree",
     questions: [
@@ -123,7 +190,89 @@ const topics = [
       { id: 99, name: "Is Graph Bipartite?", difficulty: "Medium", link: "https://leetcode.com/problems/is-graph-bipartite/", done: false, bookmarked: false, notes: "" },
       { id: 100, name: "Shortest Path in Binary Matrix", difficulty: "Medium", link: "https://leetcode.com/problems/shortest-path-in-binary-matrix/", done: false, bookmarked: false, notes: "" }
     ]
-  }
+  },
+  {
+    topic: "Dynamic Programming",
+    questions: [
+      { id: 101, name: "Climbing Stairs", difficulty: "Easy", link: "https://leetcode.com/problems/climbing-stairs/", done: false, bookmarked: false, notes: "" },
+      { id: 102, name: "House Robber", difficulty: "Medium", link: "https://leetcode.com/problems/house-robber/", done: false, bookmarked: false, notes: "" },
+      { id: 103, name: "Longest Increasing Subsequence", difficulty: "Medium", link: "https://leetcode.com/problems/longest-increasing-subsequence/", done: false, bookmarked: false, notes: "" },
+      { id: 104, name: "Coin Change", difficulty: "Medium", link: "https://leetcode.com/problems/coin-change/", done: false, bookmarked: false, notes: "" },
+      { id: 105, name: "Maximum Subarray", difficulty: "Easy", link: "https://leetcode.com/problems/maximum-subarray/", done: false, bookmarked: false, notes: "" },
+      { id: 106, name: "Unique Paths", difficulty: "Medium", link: "https://leetcode.com/problems/unique-paths/", done: false, bookmarked: false, notes: "" },
+      { id: 107, name: "Minimum Path Sum", difficulty: "Medium", link: "https://leetcode.com/problems/minimum-path-sum/", done: false, bookmarked: false, notes: "" },
+      { id: 108, name: "Edit Distance", difficulty: "Hard", link: "https://leetcode.com/problems/edit-distance/", done: false, bookmarked: false, notes: "" },
+      { id: 109, name: "Longest Common Subsequence", difficulty: "Medium", link:"https://leetcode.com/problems/longest-common-subsequence/", done:false, bookmarked:false, notes:"" },
+      { id :110 ,name:"Word Break" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/word-break/" ,done:false ,bookmarked:false ,notes:""},
+      {id :111 ,name:"Partition Equal Subset Sum" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/partition-equal-subset-sum/" ,done:false ,bookmarked:false ,notes:""},
+      {id :112 ,name:"Maximum Product Subarray" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/maximum-product-subarray/" ,done:false ,bookmarked:false ,notes:""},
+      {id :113 ,name:"Best Time to Buy and Sell Stock II" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/" ,done:false ,bookmarked:false ,notes:""},      
+      {id :114 ,name:"Longest Palindromic Substring" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/longest-palindromic-substring/" ,done:false ,bookmarked:false ,notes:""},
+      {id :115 ,name:"Palindrome Partitioning II" ,difficulty:"Hard" ,link:"https://leetcode.com/problems/palindrome-partitioning-ii/" ,done:false ,bookmarked:false ,notes:""},
+    ]
+},
+{
+    topic: "Backtracking",
+    questions: [
+      { id: 116, name: "Subsets", difficulty: "Medium", link: "https://leetcode.com/problems/subsets/", done: false, bookmarked: false, notes: "" },
+      { id: 117, name: "Permutations", difficulty: "Medium", link: "https://leetcode.com/problems/permutations/", done: false, bookmarked: false, notes: "" },
+      { id: 118, name: "Combination Sum", difficulty: "Medium", link: "https://leetcode.com/problems/combination-sum/", done: false, bookmarked: false, notes: "" },
+      { id: 119, name: "Letter Combinations of a Phone Number", difficulty: "Medium", link: "https://leetcode.com/problems/letter-combinations-of-a-phone-number/", done: false, bookmarked: false, notes: "" },
+      { id: 120, name: "Generate Parentheses", difficulty: "Medium", link:"https://leetcode.com/problems/generate-parentheses/", done:false, bookmarked:false, notes:"" },
+      { id :121 ,name:"N-Queens" ,difficulty:"Hard" ,link:"https://leetcode.com/problems/n-queens/" ,done:false ,bookmarked:false ,notes:""},
+      {id :122 ,name:"N-Queens II" ,difficulty:"Hard" ,link:"https://leetcode.com/problems/n-queens-ii/" ,done:false ,bookmarked:false ,notes:""},
+      {id :123 ,name:"Combination Sum II" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/combination-sum-ii/" ,done:false ,bookmarked:false ,notes:""},
+      {id :124 ,name:"Palindrome Partitioning" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/palindrome-partitioning/" ,done:false ,bookmarked:false ,notes:""},
+      {id :125 ,name:"Restore IP Addresses" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/restore-ip-addresses/" ,done:false ,bookmarked:false ,notes:""},
+    ]
+},
+{
+    topic: "Heap and Priority Queue",
+    questions: [
+      { id: 126, name: "Merge k Sorted Lists", difficulty: "Hard", link: "https://leetcode.com/problems/merge-k-sorted-lists/", done: false, bookmarked: false, notes: "" },
+      { id: 127, name: "Top K Frequent Elements", difficulty: "Medium", link: "https://leetcode.com/problems/top-k-frequent-elements/", done: false, bookmarked: false, notes: "" },
+      { id: 128, name: "Kth Largest Element in an Array", difficulty: "Medium", link: "https://leetcode.com/problems/kth-largest-element-in-an-array/", done: false, bookmarked: false, notes: "" },
+      { id: 129, name: "Find Median from Data Stream", difficulty: "Hard", link:"https://leetcode.com/problems/find-median-from-data-stream/", done:false, bookmarked:false, notes:"" },
+      { id :130 ,name:"Sliding Window Maximum" ,difficulty:"Hard" ,link:"https://leetcode.com/problems/sliding-window-maximum/" ,done:false ,bookmarked:false ,notes:""},
+      {id :131 ,name:"Kth Smallest Element in a Sorted Matrix" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/" ,done:false ,bookmarked:false ,notes:""},
+      {id :132 ,name:"Find K Pairs with Smallest Sums" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/find-k-pairs-with-smallest-sums/" ,done:false ,bookmarked:false ,notes:""},
+      {id :133 ,name:"Last Stone Weight" ,difficulty:"Easy" ,link:"https://leetcode.com/problems/last-stone-weight/" ,done:false ,bookmarked:false ,notes:""},
+      {id :134 ,name:"Reorganize String" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/reorganize-string/" ,done:false ,bookmarked:false ,notes:""},
+    ]   
+},
+{topic: "Trie",
+    questions: [
+      { id: 135, name: "Implement Trie (Prefix Tree)", difficulty: "Medium", link: "https://leetcode.com/problems/implement-trie-prefix-tree/", done: false, bookmarked: false, notes: "" },
+      { id: 136, name: "Add and Search Word - Data structure design", difficulty: "Medium", link: "https://leetcode.com/problems/add-and-search-word-data-structure-design/", done: false, bookmarked: false, notes: "" },
+      { id: 137, name: "Replace Words", difficulty: "Medium", link: "https://leetcode.com/problems/replace-words/", done: false, bookmarked: false, notes: "" },
+      { id: 138, name: "Longest Word in Dictionary", difficulty: "Easy", link:"https://leetcode.com/problems/longest-word-in-dictionary/", done:false, bookmarked:false, notes:"" },
+      { id :139 ,name:"Palindrome Pairs" ,difficulty:"Hard" ,link:"https://leetcode.com/problems/palindrome-pairs/" ,done:false ,bookmarked:false ,notes:""},
+        {id :140 ,name:"Add and Search Word - Data structure design II" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/add-and-search-word-data-structure-design-ii/" ,done:false ,bookmarked:false ,notes:""},
+        {id :141 ,name:"Implement Magic Dictionary" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/implement-magic-dictionary/" ,done:false ,bookmarked:false ,notes:""},
+        {id :142 ,name:"Design Add and Search Words Data structure" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/design-add-and-search-words-data-structure/" ,done:false ,bookmarked:false ,notes:""},
+        {id :143 ,name:"Count of Smaller Numbers After Self" ,difficulty:"Hard" ,link:"https://leetcode.com/problems/count-of-smaller-numbers-after-self/" ,done:false ,bookmarked:false ,notes:""},
+        {id :144 ,name:"Stream of Characters" ,difficulty:"Hard" ,link:"https://leetcode.com/problems/stream-of-characters/" ,done:false ,bookmarked:false ,notes:""},
+
+    ]
+},
+{topic: "Bit Manipulation",
+    questions: [
+      { id: 139, name: "Single Number", difficulty: "Easy", link: "https://leetcode.com/problems/single-number/", done: false, bookmarked: false, notes: "" },
+      { id: 140, name: "Number of 1 Bits", difficulty: "Easy", link: "https://leetcode.com/problems/number-of-1-bits/", done: false, bookmarked: false, notes: "" },
+      { id: 141, name: "Power of Two", difficulty: "Easy", link: "https://leetcode.com/problems/power-of-two/", done: false, bookmarked: false, notes: "" },
+      { id: 142, name: "Counting Bits", difficulty: "Easy", link:"https://leetcode.com/problems/counting-bits/", done:false, bookmarked:false, notes:"" },
+      { id :143 ,name:"Missing Number" ,difficulty:"Easy" ,link:"https://leetcode.com/problems/missing-number/" ,done:false ,bookmarked:false ,notes:""},
+      {id :144 ,name:"Reverse Bits" ,difficulty:"Easy" ,link:"https://leetcode.com/problems/reverse-bits/" ,done:false ,bookmarked:false ,notes:""},
+      {id :145 ,name:"Sum of Two Integers" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/sum-of-two-integers/" ,done:false ,bookmarked:false ,notes:""},
+      {id :146 ,name:"Number Complement" ,difficulty:"Easy" ,link:"https://leetcode.com/problems/number-complement/" ,done:false ,bookmarked:false ,notes:""},
+      {id :147 ,name:"Hamming Distance" ,difficulty:"Easy" ,link:"https://leetcode.com/problems/hamming-distance/" ,done:false ,bookmarked:false ,notes:""},
+        {id :148 ,name:"Find the Difference" ,difficulty:"Easy" ,link:"https://leetcode.com/problems/find-the-difference/" ,done:false ,bookmarked:false ,notes:""},
+        {id :149 ,name:"Counting Bits II" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/counting-bits-ii/" ,done:false ,bookmarked:false ,notes:""},
+        {id :150 ,name:"Bitwise AND of Numbers Range" ,difficulty:"Medium" ,link:"https://leetcode.com/problems/bitwise-and-of-numbers-range/" ,done:false ,bookmarked:false ,notes:""},
+    ]
+},
+
+    
 ];
 
 export default topics;

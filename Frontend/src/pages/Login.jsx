@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import axios from "../api/axios";
 import { AuthContext } from "../context/AuthContext";
 import loginImage from "../assets/loginimg.png";
-import toast from "react-hot-toast";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -24,10 +23,18 @@ const Login = () => {
       const res = await axios.post("/auth/login", form);
       localStorage.setItem("token", res.data.token);
       setUser(res.data.user);
-      toast.success("Login successful!");
+      alert("Login successful!");
       navigate("/dashboard");
     } catch (err) {
-      toast.error(err.response?.data?.message || "Login failed.");
+      const message = err.response?.data?.message?.toLowerCase() || "login failed";
+
+      if (message.includes("not exist") || message.includes("no user") || message.includes("unregistered")) {
+        alert("Please register first.");
+      } else if (message.includes("incorrect") || message.includes("wrong") || message.includes("invalid password")) {
+        alert("Incorrect password.");
+      } else {
+        alert("Login failed.");
+      }
     } finally {
       setLoading(false);
     }
